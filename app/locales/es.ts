@@ -7,6 +7,14 @@ const es: PartialLocaleType = {
     Unauthorized:
       "Acceso no autorizado, por favor ingrese el código de acceso en la [página](/#/auth) de configuración.",
   },
+  Auth: {
+    Title: "Código de acceso requerido",
+    Tips: "Introduce el código de acceso para continuar",
+    SubTips: "O introduce tu clave de API de OpenAI o Google Gemini",
+    Input: "código de acceso",
+    Confirm: "Confirmar",
+    Later: "volver",
+  },
   ChatItem: {
     ChatItemCount: (count: number) => `${count} mensajes`,
   },

@@ -35,6 +35,7 @@ export function AvatarPicker(props: {
 export function Avatar(props: { model?: ModelType; avatar?: string }) {
   if (props.model) {
     return (
+      // TODO - Cambiar los iconos BlackBotIcon y BotIcon por un icono personalizado
       <div className="no-dark">
         {props.model?.startsWith("gpt-4") ? (
           <BlackBotIcon className="user-avatar" />
