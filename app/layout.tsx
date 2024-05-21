@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "Nico",
-  description: "El asistente personal para los miembros del INICO",
+  description: "Asistente virtual del INICO",
   viewport: {
     width: "device-width",
     initialScale: 1,
