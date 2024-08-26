@@ -35,7 +35,7 @@ export const DEFAULT_CONFIG = {
   avatar: "1f603",
   fontSize: 14,
   fontFamily: "",
-  theme: Theme.Auto as Theme,
+  theme: Theme.Light as Theme,
   tightBorder: true,
   sendPreviewBubble: false,
   enableAutoGenerateTitle: true,

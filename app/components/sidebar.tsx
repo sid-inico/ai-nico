@@ -228,7 +228,7 @@ export function SideBar(props: { className?: string }) {
       <SideBarHeader
         title="Nico"
         subTitle="Asistente virtual del INICO"
-        logo={<ChatGptIcon />}
+        logo={<NicoIcon />}
       >
         <div className={styles["sidebar-header-bar"]}>
           <IconButton
