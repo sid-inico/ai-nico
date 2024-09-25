@@ -11,7 +11,7 @@ const serverConfig = getServerSideConfig();
 
 export const metadata: Metadata = {
   title: "Nico",
-  description: "Asistente virtual del INICO",
+  description: "Asistente virtual del INICO(R)",
   appleWebApp: {
     title: "Nico",
     statusBarStyle: "default",
